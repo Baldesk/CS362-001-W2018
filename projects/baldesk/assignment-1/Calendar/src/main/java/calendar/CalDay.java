@@ -169,7 +169,7 @@ public class CalDay {
 	public String toString() {
 	     StringBuilder sb = new StringBuilder();
 	
-		if (isValid()) {
+
 			String todayDate = (getMonth()) + "/" + getDay() + "/" + getYear();
 			sb.append("\t --- " + todayDate + " --- \n");
 			sb.append(" --- -------- Appointments ------------ --- \n");
@@ -182,7 +182,7 @@ public class CalDay {
 		  
 //			sb.append(this.appts);
 			sb.append("\n");
-		}
+
        	 return sb.toString();
 
 	}

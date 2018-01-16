@@ -35,7 +35,7 @@ public class TimeTable {
 
 	        
 	        //Make sure that the first day is before the last day
-	        if (!firstDay.before(lastDay)) {
+	        if (firstDay.before(lastDay)) {
 	        	throw new DateOutOfRangeException ("Second date specified is not  before the first date specified.");
 	        }
 	        
@@ -197,7 +197,7 @@ public class TimeTable {
 	     **/
 	    public LinkedList<Appt> deleteAppt(LinkedList<Appt> appts,Appt appt) {
 	    	//Do not do anything to appts equals to null 
-	        if(appts==null||appt==null)
+	        if(appts==null && appt==null)
         		return null;
 	    	//Do not do anything to invalid appointments
 	        if (!appt.getValid()) {
