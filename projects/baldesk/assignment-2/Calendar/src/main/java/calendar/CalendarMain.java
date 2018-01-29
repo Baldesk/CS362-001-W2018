@@ -55,7 +55,7 @@ public class CalendarMain {
           if(diagnose){
           	System.out.println(appt.toString());
           } 
-         
+
          listAppts.add(appt);
           
       // create another appointment
