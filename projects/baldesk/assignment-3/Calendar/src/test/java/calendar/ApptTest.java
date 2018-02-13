@@ -39,8 +39,11 @@ public class ApptTest {
 		assertEquals(0, appt.getRecurIncrement());
 		assertEquals("Birthday Party", appt.getTitle());
 		assertEquals("This is my birthday party.", appt.getDescription());
+		//assert(appt.getValid());
 	}
-
+/*
+	Tests that an appointment that starts at hour 25 is invalid
+*/
 	@Test
 	public void test02()  throws Throwable  {
 		int startHour=25;
@@ -61,7 +64,10 @@ public class ApptTest {
 		// assertions
 		assertTrue(!(appt.getValid()));
 	}
-	//add more unit tests as you needed
+	/*
+	Tests that a appt with start minute = -1 is invalid
+	 */
+
 	@Test
 	public void test03()  throws Throwable  {
 		int startHour=23;
@@ -82,9 +88,10 @@ public class ApptTest {
 		// assertions
 		assertTrue(!(appt.getValid()));
 	}
+
 	@Test
 	public void test04()  throws Throwable  {
-		int startHour=25;
+		int startHour=25; // Invalid value
 		int startMinute=30;
 		int startDay=15;
 		int startMonth=01;
@@ -101,8 +108,10 @@ public class ApptTest {
 				description);
 		appt.compareTo(appt);
 		// assertions
-		//assertTrue(!(appt.getValid()));
+		assertTrue(!(appt.getValid()));
 	}
+
+
 	@Test
 	public void test05()  throws Throwable  {
 		int startHour=23;
@@ -149,4 +158,93 @@ public class ApptTest {
 		assertEquals("",appt.getDescription());
 
 	}
+	@Test
+	public void test07()  throws Throwable {
+		int startHour = -1; // Invalid
+		int startMinute = 2;
+		int startDay = 15;
+		int startMonth = 01;
+		int startYear = 2018;
+		String title = "Birthday Party";
+		String description = "This is my birthday party.";
+		//Construct a new Appointment object with the initial data
+		Appt appt = new Appt(startHour,
+				startMinute,
+				startDay,
+				startMonth,
+				startYear,
+				title,
+				description);
+		// assertions
+		assertEquals(null, appt.toString());
+		assertTrue(!(appt.getValid()));
+	}
+	@Test
+	public void test08()  throws Throwable {
+		int startHour = -1; // Invalid
+		int startMinute = 2;
+		int startDay = 15;
+		int startMonth = 01;
+		int startYear = 2018;
+		String title = "Birthday Party";
+		String description = "This is my birthday party.";
+		//Construct a new Appointment object with the initial data
+		Appt appt = new Appt(startHour,
+				startMinute,
+				startDay,
+				startMonth,
+				startYear,
+				title,
+				description);
+		// assertions
+		assertTrue(!(appt.getValid()));
+	}
+	@Test
+	public void test09()  throws Throwable {
+		int startHour = 2; // Invalid
+		int startMinute = 2;
+		int startDay = 15;
+		int startMonth = 01;
+		int startYear = 2018;
+		String title = "Birthday Party";
+		String description = "This is my birthday party.";
+		//Construct a new Appointment object with the initial data
+		Appt appt = new Appt(startHour,
+				startMinute,
+				startDay,
+				startMonth,
+				startYear,
+				title,
+				description);
+		// assertions
+		//assertTrue(!(appt.getValid()));
+	}
+	@Test
+	public void test10()  throws Throwable {
+		int startHour = 2;
+		int startMinute = 2;
+		int startDay = 15;
+		int startMonth = 01;
+		int startYear = 2018;
+		String title = "Birthday Party";
+		String description = "This is my birthday party.";
+		//Construct a new Appointment object with the initial data
+		Appt appt = new Appt(startHour,
+				startMinute,
+				startDay,
+				startMonth,
+				startYear,
+				title,
+				description);
+		appt.setStartHour(-1);
+		assert(!appt.getValid());
+		appt.setStartHour(1);
+		assert(appt.getValid());
+		//appt.setStartMonth(-1);
+		//assert(!appt.getValid());
+
+		// assertions
+		//assertTrue(!(appt.getValid()));
+	}
+
 }
