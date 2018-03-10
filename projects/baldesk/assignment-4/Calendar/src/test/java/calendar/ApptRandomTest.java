@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 public class ApptRandomTest
 {
-	private static final long TestTimeout = 60 * 500 * 1; /* Timeout at 30 seconds */
+	private static final long TestTimeout = 20 * 500 * 1; /* Timeout at 30 seconds */
 	private static final int NUM_TESTS=100;
 
 
@@ -28,7 +28,7 @@ public class ApptRandomTest
     public static String RandomSelectMethod(Random random)
 	{
         String[] methodArray = new String[] {"setTitle","setRecurrence", "setStart",
-											"getStart", "toString", "compareTo"};// The list of the of methods to be tested in the Appt class
+											"getStart", "toString", "compareTo", "isValid"};// The list of the of methods to be tested in the Appt class
 
     	int n = random.nextInt(methodArray.length);// get a random number between 0 (inclusive) and  methodArray.length (exclusive)
     	            
@@ -162,11 +162,11 @@ public class ApptRandomTest
 						   appt.setStartMinute(rando);
 						   rando = ValuesGenerator.RandInt(random);
 						   appt.setStartHour(rando);
-						   rando = ValuesGenerator.getRandomIntBetween(random, 0,59);
+						   rando = ValuesGenerator.getRandomIntBetween(random, -1,60);
 						   appt.setStartMinute(rando);
-						   rando = ValuesGenerator.getRandomIntBetween(random, 0,23);
+						   rando = ValuesGenerator.getRandomIntBetween(random, -1,24);
 						   appt.setStartHour(rando);
-						   rando = ValuesGenerator.getRandomIntBetween(random, 1, 31);
+						   rando = ValuesGenerator.getRandomIntBetween(random, -1, 32);
 						   appt.setStartDay(rando);
 						   rando = ValuesGenerator.getRandomIntBetween(random, 1, 12);
 						   appt.setStartMonth(rando);
@@ -190,6 +190,22 @@ public class ApptRandomTest
 					   else if(methodName.equals("compareTo"))
 					   {
 					   		appt.compareTo(appt2);
+					   }
+					   else if(methodName.equals("isValid"))
+					   {
+							/*
+					   		int r1 = ValuesGenerator.getRandomIntBetween(random, -1, 13);
+						   Appt appt3 = new Appt(startHour,
+								   startMinute ,
+								   startDay ,
+								   startMonth,
+								   startYear ,
+								   title,
+								   description);
+						   appt3.setStartMonth(r1);
+						   assertEquals(false, appt.getValid());
+						   appt3.setStartMonth(startMonth);
+						   */
 					   }
 				}
 				

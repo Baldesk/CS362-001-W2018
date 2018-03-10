@@ -21,7 +21,7 @@ public class CalDayRandomTest {
     /**
      * Generate Random Tests that tests CalDay Class.
      */
-	private static final long TestTimeout = 60 * 500 * 1; /* Timeout at 30 seconds */
+	private static final long TestTimeout = 20 * 500 * 1; /* Timeout at 30 seconds */
 	private static final int NUM_TESTS=100;
 
 	public static String RandomSelectMethod(Random random)
@@ -44,7 +44,7 @@ public class CalDayRandomTest {
 		long startTime = Calendar.getInstance().getTimeInMillis();
 		long elapsed = Calendar.getInstance().getTimeInMillis() - startTime;
 
-		System.out.println("Start Appt testing ...");
+		System.out.println("Start CalDay testing ...");
 		try
 		{
 			for (int iteration = 0; elapsed < TestTimeout; iteration++)
