@@ -436,8 +436,6 @@ public class CalDayTest {
         LinkedList<Appt> listAppts = new LinkedList<Appt>();
 
 
-        //=-=======================================================================
-
         startHour=1;
         startMinute=2;
         startDay=thisDay;

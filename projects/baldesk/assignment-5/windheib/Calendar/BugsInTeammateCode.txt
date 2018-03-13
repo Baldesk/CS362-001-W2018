@@ -1,0 +1,40 @@
+Bug Report for Calendar Application
+Author: Ben Windheim
+Debugger: Kyle Baldes
+Date: 3/12/18
+
+Bugs Found:
+
+
+1)
+Description:
+In the Appt class the isValid() method is missing an if statement that checks the hour value in an appointment.
+
+Line Numbers in Source Code:
+Appt.java line 114
+
+Details:
+The isValid method is should check to make sure that an appointment contains values that are valid.
+In this case there should be an if statement that checks to see if the startHour is between 0 and 23 inclusive.
+
+Testing that revealed the bug:
+Several tests in the ApptTest class failed including test 2,4,8, and 10. Failures were a result of assertions
+that did not pass. All of the assertions tested the isValid() method and checked to see if the correct
+value was returned when given bad values for startHour. These consecutive errors made it quite clear that
+the startHour value was not being checked correctly.
+
+
+
+2)
+Description:
+In the CalDay class the addAppt() method is performing incorrectly.
+
+Line Numbers in Source Code:
+CalDay.java line 75
+
+Details:
+The addAppt() method is not preforming correctly. The bug results from the for loop on line 75 not being
+initialized with the correct value i = 0. Instead i is initialized as 1.
+
+Testing that revealed the bug:
+Initial unit tests showed that th
