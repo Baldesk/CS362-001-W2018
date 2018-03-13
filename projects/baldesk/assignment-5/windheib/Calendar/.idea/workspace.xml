@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73e148fe-603f-4b52-b569-8b8d427a6b78" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/BugsInTeammateCode.txt" />
       <change beforePath="$PROJECT_DIR$/../../../assignment-4/Calendar/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../assignment-4/Calendar/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BugsInTeammateCode.txt" afterPath="$PROJECT_DIR$/BugsInTeammateCode.txt" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java" afterPath="$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java" afterPath="$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +24,41 @@
             <file leaf-file-name="Appt.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2323">
-                    <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+                  <state relative-caret-position="-1855">
+                    <caret line="119" column="12" lean-forward="true" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
                     <folding>
                       <element signature="e#5104#5105#0" expanded="true" />
                       <element signature="e#5136#5137#0" expanded="true" />
+                      <element signature="e#5197#5198#0" expanded="true" />
+                      <element signature="e#5231#5232#0" expanded="true" />
+                      <element signature="e#5288#5289#0" expanded="true" />
+                      <element signature="e#5319#5320#0" expanded="true" />
+                      <element signature="e#5380#5381#0" expanded="true" />
+                      <element signature="e#5413#5414#0" expanded="true" />
                       <element signature="e#5472#5473#0" expanded="true" />
                       <element signature="e#5504#5505#0" expanded="true" />
+                      <element signature="e#5558#5559#0" expanded="true" />
+                      <element signature="e#5586#5587#0" expanded="true" />
+                      <element signature="e#5652#5653#0" expanded="true" />
+                      <element signature="e#5686#5687#0" expanded="true" />
+                      <element signature="e#5746#5747#0" expanded="true" />
+                      <element signature="e#5779#5780#0" expanded="true" />
+                      <element signature="e#6380#6381#0" expanded="true" />
+                      <element signature="e#6418#6419#0" expanded="true" />
+                      <element signature="e#6506#6507#0" expanded="true" />
+                      <element signature="e#6558#6559#0" expanded="true" />
+                      <element signature="e#6638#6639#0" expanded="true" />
+                      <element signature="e#6684#6685#0" expanded="true" />
+                      <element signature="e#6746#6747#0" expanded="true" />
+                      <element signature="e#6780#6781#0" expanded="true" />
+                      <element signature="e#6834#6835#0" expanded="true" />
+                      <element signature="e#6864#6865#0" expanded="true" />
+                      <element signature="e#6924#6925#0" expanded="true" />
+                      <element signature="e#6956#6957#0" expanded="true" />
+                      <element signature="e#7126#7127#0" expanded="true" />
+                      <element signature="e#7187#7188#0" expanded="true" />
+                      <element signature="e#7255#7256#0" expanded="true" />
+                      <element signature="e#7292#7293#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -38,9 +67,30 @@
             <file leaf-file-name="CalDay.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="438">
-                    <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
-                    <folding />
+                  <state relative-caret-position="3767">
+                    <caret line="164" column="31" lean-forward="false" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+                    <folding>
+                      <element signature="e#699#700#0" expanded="true" />
+                      <element signature="e#719#720#0" expanded="true" />
+                      <element signature="e#1965#1966#0" expanded="true" />
+                      <element signature="e#1984#1985#0" expanded="true" />
+                      <element signature="e#2602#2603#0" expanded="true" />
+                      <element signature="e#2623#2624#0" expanded="true" />
+                      <element signature="e#2679#2680#0" expanded="true" />
+                      <element signature="e#2704#2705#0" expanded="true" />
+                      <element signature="e#2757#2758#0" expanded="true" />
+                      <element signature="e#2780#2781#0" expanded="true" />
+                      <element signature="e#2838#2839#0" expanded="true" />
+                      <element signature="e#2857#2858#0" expanded="true" />
+                      <element signature="e#2917#2918#0" expanded="true" />
+                      <element signature="e#2943#2944#0" expanded="true" />
+                      <element signature="e#2983#2984#0" expanded="true" />
+                      <element signature="e#3000#3001#0" expanded="true" />
+                      <element signature="e#3138#3139#0" expanded="true" />
+                      <element signature="e#3157#3158#0" expanded="true" />
+                      <element signature="e#3200#3201#0" expanded="true" />
+                      <element signature="e#3218#3219#0" expanded="true" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -58,8 +108,18 @@
             <file leaf-file-name="BugsInTeammateCode.txt" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/BugsInTeammateCode.txt">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1015">
-                    <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+                  <state relative-caret-position="245">
+                    <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="41" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="TimeTable.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="5775">
+                    <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
                     <folding />
                   </state>
                 </provider>
@@ -75,8 +135,8 @@
       <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="216" column="22" lean-forward="true" selection-start-line="216" selection-start-column="22" selection-end-line="216" selection-end-column="22" />
+            <state relative-caret-position="521">
+              <caret line="216" column="22" lean-forward="false" selection-start-line="216" selection-start-column="22" selection-end-line="216" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,21 +144,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.ApptTest.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.ApptTest.txt">
+      <file leaf-file-name="calendar.CalDayTest.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.CalDayTest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="164" column="66" lean-forward="true" selection-start-line="164" selection-start-column="66" selection-end-line="164" selection-end-column="66" />
+            <state relative-caret-position="490">
+              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.CalDayTest.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.CalDayTest.txt">
+      <file leaf-file-name="calendar.ApptTest.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.ApptTest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
-              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="5740">
+              <caret line="164" column="66" lean-forward="true" selection-start-line="164" selection-start-column="66" selection-end-line="164" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -107,8 +167,8 @@
       <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3185">
-              <caret line="472" column="52" lean-forward="true" selection-start-line="472" selection-start-column="52" selection-end-line="472" selection-end-column="52" />
+            <state relative-caret-position="997">
+              <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1161#1167#0" expanded="true" />
@@ -131,8 +191,8 @@
       <file leaf-file-name="TimeTableTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22855">
-              <caret line="653" column="66" lean-forward="false" selection-start-line="653" selection-start-column="66" selection-end-line="653" selection-end-column="66" />
+            <state relative-caret-position="0">
+              <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1254#1260#0" expanded="true" />
@@ -168,8 +228,8 @@
       <file leaf-file-name="CalDayRandomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1120">
-              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="-18">
+              <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,11 +237,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeTableRandomTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeTableRandomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="105" column="55" lean-forward="false" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
+            <state relative-caret-position="1015">
+              <caret line="116" column="77" lean-forward="false" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2165#2173#0" expanded="true" />
@@ -229,15 +289,15 @@
         <option value="$PROJECT_DIR$/src/main/java/calendar/CalendarMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/ValuesGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/calendar/TimeTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calendar/CalDay.java" />
         <option value="$PROJECT_DIR$/src/main/java/calendar/CalendarUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/ApptRandomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/ApptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calendar/Appt.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calendar/CalDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calendar/Appt.java" />
         <option value="$PROJECT_DIR$/BugsInTeammateCode.txt" />
       </list>
     </option>
@@ -274,6 +334,43 @@
             <path>
               <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520667581238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding BugsInTeammateCode.txt">
+      <created>1520917113961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520917113961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,7 +580,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ben's code" />
     <MESSAGE value="Initial setup to configure Ben's code and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial setup to configure Ben's code and tests" />
+    <MESSAGE value="Adding BugsInTeammateCode.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding BugsInTeammateCode.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -675,19 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8190">
-          <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#8499#0" expanded="false" />
-            <element signature="e#844#852#0" expanded="false" />
-            <element signature="e#2878#2897#0" expanded="false" />
-            <element signature="e#8131#8137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1168">
@@ -704,42 +796,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="69" column="76" lean-forward="false" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2323">
-          <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-          <folding>
-            <element signature="e#5104#5105#0" expanded="true" />
-            <element signature="e#5136#5137#0" expanded="true" />
-            <element signature="e#5472#5473#0" expanded="true" />
-            <element signature="e#5504#5505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.ApptTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="164" column="66" lean-forward="true" selection-start-line="164" selection-start-column="66" selection-end-line="164" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/calendar/CalDayTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3063">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12685#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -751,58 +812,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalendarUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="216" column="22" lean-forward="true" selection-start-line="216" selection-start-column="22" selection-end-line="216" selection-end-column="22" />
+        <state relative-caret-position="1015">
+          <caret line="116" column="77" lean-forward="false" selection-start-line="116" selection-start-column="77" selection-end-line="116" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2165#2173#0" expanded="true" />
+            <element signature="e#2289#2295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.CalDayTest.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3185">
-          <caret line="472" column="52" lean-forward="true" selection-start-line="472" selection-start-column="52" selection-end-line="472" selection-end-column="52" />
+        <state relative-caret-position="-18">
+          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1161#1167#0" expanded="true" />
-            <element signature="e#2417#2425#0" expanded="true" />
-            <element signature="e#4479#4485#0" expanded="true" />
-            <element signature="e#5732#5740#0" expanded="true" />
-            <element signature="e#6807#6813#0" expanded="true" />
-            <element signature="e#8090#8098#0" expanded="true" />
-            <element signature="e#9251#9257#0" expanded="true" />
-            <element signature="e#10299#10305#0" expanded="true" />
-            <element signature="e#11582#11590#0" expanded="true" />
-            <element signature="e#15152#15158#0" expanded="true" />
-            <element signature="e#16358#16364#0" expanded="true" />
-            <element signature="e#17520#17526#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22855">
-          <caret line="653" column="66" lean-forward="false" selection-start-line="653" selection-start-column="66" selection-end-line="653" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1254#1260#0" expanded="true" />
@@ -834,33 +869,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="997">
+          <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1161#1167#0" expanded="true" />
+            <element signature="e#2417#2425#0" expanded="true" />
+            <element signature="e#4479#4485#0" expanded="true" />
+            <element signature="e#5732#5740#0" expanded="true" />
+            <element signature="e#6807#6813#0" expanded="true" />
+            <element signature="e#8090#8098#0" expanded="true" />
+            <element signature="e#9251#9257#0" expanded="true" />
+            <element signature="e#10299#10305#0" expanded="true" />
+            <element signature="e#11582#11590#0" expanded="true" />
+            <element signature="e#15152#15158#0" expanded="true" />
+            <element signature="e#16358#16364#0" expanded="true" />
+            <element signature="e#17520#17526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="216" column="22" lean-forward="false" selection-start-line="216" selection-start-column="22" selection-end-line="216" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/TimeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5775">
+          <caret line="237" column="1" lean-forward="false" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalendarUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1855">
+          <caret line="119" column="12" lean-forward="true" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+          <folding>
+            <element signature="e#5104#5105#0" expanded="true" />
+            <element signature="e#5136#5137#0" expanded="true" />
+            <element signature="e#5197#5198#0" expanded="true" />
+            <element signature="e#5231#5232#0" expanded="true" />
+            <element signature="e#5288#5289#0" expanded="true" />
+            <element signature="e#5319#5320#0" expanded="true" />
+            <element signature="e#5380#5381#0" expanded="true" />
+            <element signature="e#5413#5414#0" expanded="true" />
+            <element signature="e#5472#5473#0" expanded="true" />
+            <element signature="e#5504#5505#0" expanded="true" />
+            <element signature="e#5558#5559#0" expanded="true" />
+            <element signature="e#5586#5587#0" expanded="true" />
+            <element signature="e#5652#5653#0" expanded="true" />
+            <element signature="e#5686#5687#0" expanded="true" />
+            <element signature="e#5746#5747#0" expanded="true" />
+            <element signature="e#5779#5780#0" expanded="true" />
+            <element signature="e#6380#6381#0" expanded="true" />
+            <element signature="e#6418#6419#0" expanded="true" />
+            <element signature="e#6506#6507#0" expanded="true" />
+            <element signature="e#6558#6559#0" expanded="true" />
+            <element signature="e#6638#6639#0" expanded="true" />
+            <element signature="e#6684#6685#0" expanded="true" />
+            <element signature="e#6746#6747#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6834#6835#0" expanded="true" />
+            <element signature="e#6864#6865#0" expanded="true" />
+            <element signature="e#6924#6925#0" expanded="true" />
+            <element signature="e#6956#6957#0" expanded="true" />
+            <element signature="e#7126#7127#0" expanded="true" />
+            <element signature="e#7187#7188#0" expanded="true" />
+            <element signature="e#7255#7256#0" expanded="true" />
+            <element signature="e#7292#7293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3767">
+          <caret line="164" column="31" lean-forward="false" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2602#2603#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2757#2758#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2917#2918#0" expanded="true" />
+            <element signature="e#2943#2944#0" expanded="true" />
+            <element signature="e#2983#2984#0" expanded="true" />
+            <element signature="e#3000#3001#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3218#3219#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BugsInTeammateCode.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="245">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.ApptTest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="105" column="55" lean-forward="false" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2165#2173#0" expanded="true" />
-            <element signature="e#2289#2295#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5740">
+          <caret line="164" column="66" lean-forward="true" selection-start-line="164" selection-start-column="66" selection-end-line="164" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/calendar.CalDayTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
