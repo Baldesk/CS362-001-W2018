@@ -23,10 +23,10 @@ package finalprojectB;
  */
  public class ResultPair {
       public String item;
-      public boolean valid;
+      public long option;
 
-      public ResultPair(String item, boolean valid) {
+      public ResultPair(String item, long option) {
          this.item = item;
-         this.valid = valid;  //Weather the individual part of url is valid.
+         this.option = option;  //Weather the individual part of url is valid.
       }
    }
