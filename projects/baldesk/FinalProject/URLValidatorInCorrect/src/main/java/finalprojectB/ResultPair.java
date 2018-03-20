@@ -23,10 +23,10 @@ package finalprojectB;
  */
  public class ResultPair {
       public String item;
-      public long option;
+      public long option; // CHANGED FROM ORIGINAL
 
       public ResultPair(String item, long option) {
          this.item = item;
-         this.option = option;  //Weather the individual part of url is valid.
+         this.option = option;  //What option the URL is accepted/denied on
       }
    }
